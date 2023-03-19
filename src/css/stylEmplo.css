@@ -1,0 +1,23 @@
+.boxing{
+    margin-top: 5%;
+    height: 600px;
+    width: 75%;
+    border-radius: 15px;
+    box-shadow: 2px 4px 4px 2px rgba(85, 85, 255, 0.25);
+    overflow: scroll;
+  }
+  .images{
+    height: 70px; width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+input[type='search']{
+    outline: none;
+    text-align: center;
+    width: 40vh;
+    transition: 0.25s;
+    
+}
+input[type='search']:focus{
+  background-color: rgb(159, 219, 199);
+}

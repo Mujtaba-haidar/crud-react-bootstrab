@@ -1,0 +1,49 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+h1{
+    color: rgb(215, 86, 247);
+}
+.container{
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(20, 20, 202, 0.25) 0px 30px 60px -12px inset, rgba(212, 21, 21, 0.3) 0px 18px 36px -18px inset;
+}
+.inputall{
+    display: block;
+}
+.container input[type='text'],input[type='password']{
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+    transition: 0.25s;
+    cursor: pointer;
+    color:black;
+}
+.container input[type='text']:focus,.container input[type='password']:focus{
+ background-color: #faedcd;
+ width: 330px;
+ border-radius: 10px;
+}
+.container input[type='submit']{
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    width: 100px;
+    transition: 0.25s;
+    font-weight: bold;
+}
+.container input[type='submit']:hover{
+    background-color:#014f86 ;
+    color: white;
+}
